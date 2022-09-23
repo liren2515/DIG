@@ -13,7 +13,7 @@ Download the female SMPL model from http://smplify.is.tue.mpg.de/ and place `bas
 Other dependencies include `trimesh`, `torchgeometry`, `scikit-image`.
 
 ## To run
-In `infer.py` you can find the script for inference. It loads the pretrained SDF models and skinning models (which are placed in `./extra-data/pretrained`), reconstructs garments using the learned latent codes and deforms them with the given SMPL parameters `/extra-data/pose-beta-sample.pt`. You can simply run
+In `infer.py` you can find the script for inference. It loads the pretrained SDF models and skinning models (which are placed in `./extra-data/pretrained`), reconstructs garments using the learned latent codes and deforms them with the given SMPL parameters `/extra-data/pose-beta-sample.pt`. You can simply run the following command and the output mesh will be saved at `./output`.
 ```
 python infer.py
 ```
