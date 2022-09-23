@@ -1,5 +1,4 @@
 import torch
-import hydra
 import numpy as np
 from smpl_pytorch.body_models import SMPL
 
