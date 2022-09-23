@@ -18,4 +18,15 @@ python infer.py
 
 To generate results for other garments and bodies, you can replace the latent code and SMPL parameters with other values.
 
-Check here for the instruction of training.
+Check [here](https://github.com/liren2515/DIG/tree/main/models) for the instruction of training.
+
+## Citation
+If you find this work helpful for your research, please cite
+```
+@article{li2022dig, 
+  title={DIG: Draping Implicit Garment over the Human Body},
+  author={Li, Ren and Guillard, Benoit and Remelli, Edoardo and Fua, Pascal}
+  journal={arXiv preprint arXiv:2209.10845},
+  year={2022}
+}
+```
