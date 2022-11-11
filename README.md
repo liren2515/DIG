@@ -1,7 +1,7 @@
 # DIG: Draping Implicit Garment over the Human Body
 <p align="center"><img src="misc/front.png"></p>
 
-This is the repo for [**DIG: Draping Implicit Garment over the Human Body**](https://arxiv.org/abs/2209.10845).
+This is the repo for [**DIG: Draping Implicit Garment over the Human Body**](https://liren2515.github.io/page/dig/dig.html).
 
 Here we provide the code and the pretrained models to generate garments and drape them on the posed human body.
 
