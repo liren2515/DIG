@@ -25,10 +25,10 @@ Check [here](https://github.com/liren2515/DIG/tree/main/models) for the instruct
 ## Citation
 If you find this work helpful for your research, please cite
 ```
-@article{li2022dig, 
-  title={DIG: Draping Implicit Garment over the Human Body},
-  author={Li, Ren and Guillard, Benoit and Remelli, Edoardo and Fua, Pascal}
-  journal={arXiv preprint arXiv:2209.10845},
-  year={2022}
+@inproceedings{ren2022dig,
+  author = {Ren, Li and Guillard, Benoit and Remelli, Edoardo and Fua, Pascal},
+  title = {{DIG: Draping Implicit Garment over the Human Body}},
+  booktitle = {Asian Conference on Computer Vision},
+  year = {2022}
 }
 ```
