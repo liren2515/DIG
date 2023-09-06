@@ -17,7 +17,9 @@ Other dependencies include `trimesh`, `torchgeometry`, `scikit-image`.
 In case you prefer Docker containers, build a Docker image using:
 
 ```
+cd docker/
 docker build -t $USER-dig .
+cd ..
 ```
 
 and run the container by:
