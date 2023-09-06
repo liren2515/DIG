@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode-related files.
+.vscode/
+
+# Generated result files.
+output/
+
+# Downloaded files.
+smpl_pytorch/basicModel_f_lbs_10_207_0_v1.0.0.pkl
