@@ -23,7 +23,9 @@ docker build -t $USER-dig .
 and run the container by:
 
 ```
-docker run -it --rm --gpus all --shm-size=8gb --name $USER-dig -v /media/kristijan/DIG/:/DIG/ $USER-dig
+# change <local-path-to-dig-repo>
+
+docker run -it --rm --gpus all --shm-size=8gb --name $USER-dig -v <local-path-to-dig-repo>/:/DIG/ $USER-dig
 ```
 
 ### Troubleshoot
