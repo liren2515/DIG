@@ -39,7 +39,10 @@ def reconstruct(cloth_representation, model_G, resolution=256, thresh=0, just_vf
 
     sdf = eval_grid_octree(coords, eval_func_xyz, threshold = 0.01, num_samples=10000, init_resolution=16)
 
-    verts, faces, normals, values = measure.marching_cubes_lewiner(sdf, thresh)
+    try:
+        verts, faces, normals, values = measure.marching_cubes_lewiner(sdf, thresh)
+    except AttributeError:
+        verts, faces, normals, values = measure.marching_cubes(sdf, thresh)
 
     cloth_mesh = trimesh.Trimesh(np.float64(verts), faces[:, ::-1])
     cloth_mesh.vertices /= resolution
